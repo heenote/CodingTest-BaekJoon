@@ -3,8 +3,8 @@ for _ in range(X):
   Y = list(input())
   a= 0
   A = []
-  for j in range(len(Y)):
-     if(Y[j] =='O'):
+  for j in Y:
+     if(j =='O'):
       a = a + 1
       A.append(a)
      else:
