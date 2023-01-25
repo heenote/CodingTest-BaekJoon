@@ -6,8 +6,6 @@ for _ in range(0,num):
   for i in range(0, len(X)):
     if A[-1] == 0: 
      A.append(X[i])
-    elif A[-1] == X[i]:
-      continue
     elif A[-1] != X[i]:
       if X[i] not in A:
        A.append(X[i])
